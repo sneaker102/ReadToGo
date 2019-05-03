@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/finishedBooksLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="#0A0A2A"
+        android:shadowRadius="5"
+        android:text="Finished Books"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="#1C1C1C"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/finishedBooksImg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:transitionName="simple_activity_transition"
+        android:src="@drawable/raft_books" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:shadowColor="#0A0A2A"
+        android:textColor="#1C1C1C"
+        android:shadowRadius="5"
+        android:text="Currently Reading Books"
+        android:fontFamily="@font/montserrat_regular"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/reading_book" />
+
+    <TextView
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:shadowColor="#0A0A2A"
+        android:textColor="#1C1C1C"
+        android:shadowRadius="5"
+        android:text="Wish List "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/to_read_books" />
+
+
+</LinearLayout>

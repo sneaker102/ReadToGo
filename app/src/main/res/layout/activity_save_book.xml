@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayoutStart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="292dp"
+        android:layout_height="372dp"
+        android:background="#1E9C91"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/numeTxt"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="CARTE"
+
+            android:outlineAmbientShadowColor="#088A08"
+            android:outlineSpotShadowColor="#088A08"
+            android:shadowColor="#000"
+            android:shadowRadius="7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:id="@+id/autorTxt"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="AUTOR"
+            android:outlineAmbientShadowColor="#088A08"
+            android:outlineSpotShadowColor="#088A08"
+            android:shadowColor="#000"
+            android:shadowRadius="7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:id="@+id/edituraTxt"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="EDITURA (optional)"
+            android:outlineAmbientShadowColor="#088A08"
+            android:outlineSpotShadowColor="#088A08"
+            android:shadowColor="#000"
+            android:shadowRadius="7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <Button
+            android:id="@+id/saveBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:outlineAmbientShadowColor="#088A08"
+            android:outlineSpotShadowColor="#088A08"
+            android:shadowColor="#000"
+            android:shadowRadius="7"
+            android:text="SAVE" />
+
+        <Button
+            android:id="@+id/showBttn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHOW" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
